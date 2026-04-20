@@ -54,7 +54,6 @@ universities.each do |university|
                                 : university['name']
   category_ids = existing_organization ? existing_organization[:category_ids] : []
   category_ids << ENV["CONTRIBUTION_CATEGORY_ID"] unless category_ids.include?(ENV["CONTRIBUTION_CATEGORY_ID"])
-  category_ids << ENV["SOUTIEN_CATEGORY_ID"] unless category_ids.include?(ENV["SOUTIEN_CATEGORY_ID"])
 
   data << {
     migration_identifier: migration_identifier,
