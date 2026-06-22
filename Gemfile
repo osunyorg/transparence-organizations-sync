@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "4.0.2"
+ruby "4.0.5"
 
 gem "byebug", "~> 13.0"
 gem "dotenv", "~> 3.2"
